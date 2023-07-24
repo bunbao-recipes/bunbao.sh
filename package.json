@@ -1,24 +1,28 @@
 {
-	"name": "name",
+	"name": "bunbao",
 	"version": "0.0.1",
-	"description": "",
-	"main": "index.mjs",
+	"module": "index.ts",
+	"type": "module",
 	"scripts": {
-		"test": "node --test"
+		"start": "bun index.mjs",
+		"bao:dev:comment": "👇 this is a bug and should be removed",
+		"bao:dev": "sudo npm i && bun --watch index.dev.mjs"
 	},
-	"repository": {
-		"type": "git",
-		"url": ""
+	"bin": {
+		"bao": "./bin/bao.mjs",
+		"bao-site": "./bin/site.mjs"
 	},
-	"author": "n20124869",
-	"license": "MIT",
-	"types": "./index.d.ts",
-	"bugs": {},
-	"homepage": "",
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"@types/react": "^18.2.15",
+		"bun-types": "^0.6.14",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	},
 	"devDependencies": {
-		"@types/node": "^20.3.2",
-		"bun-types": "^0.6.12",
-		"eslint": "^8.42.0"
-	},
-	"dependencies": {}
+		"bao": "file:",
+		"bao_site": "file://./sites/bunbao.sh"
+	}
 }

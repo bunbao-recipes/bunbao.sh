@@ -1,0 +1,86 @@
+/** containers **/
+
+.container {
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.mobileOnly {
+	max-width: 40rem;
+	margin: auto;
+}
+
+
+
+/** margins **/
+.mb {
+	margin-bottom: 1rem;
+}
+
+/** paddings **/
+.px {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+/** typography **/
+.clear {
+	color: inherit !important;
+	font-size: inherit;
+	text-decoration: none;
+}
+
+.center {
+	text-align: center;
+}
+
+.font-s {
+	font-size: .75rem;
+}
+
+.font_l {
+	font-size: 1.5rem;
+}
+
+.font_xl {
+	font-size: 2rem;
+}
+
+.font_xxl {
+	font-size: 2.5rem;
+}
+
+.uc {
+	text-transform: uppercase;
+}
+
+/** colors **/
+.dark {
+	background-color: #333;
+	color:whitesmoke;
+}
+
+.dark a {
+	color:turquoise;
+}
+
+.dim {
+	opacity: .5;
+}
+
+/** flex **/
+.flex {
+	display: flex;
+}
+
+.flex_centred {
+
+}
+
+.flexItem {
+	flex: 0 0 1;
+}
+
+.flexItem_auto {
+	flex: auto;
+}

@@ -1,0 +1,198 @@
+.app {
+	display: flex;
+	flex-direction: column;
+}
+
+.app > header, .app > footer {
+	flex: 0;
+}
+
+.app > main {
+	flex: auto
+}
+
+.dancefloor {
+	display: flex;
+}
+
+.dancefloorTile {
+	flex: auto;
+	width: 0;
+	background-color: red;
+}
+
+.square {
+	width: 100%;
+	padding-bottom: 50%;
+}
+
+@keyframes color_0 {
+  0%   { background: #00ffff; }
+  20%  { background: #03e807; }
+  40%  { background: #ff0099; }
+  60%  { background: #d0fa3a; }
+  80%  { background: #7e91ff; }
+  100% { background: #ffffff; }
+}
+
+
+@keyframes color_1 {
+  0%   { background: #33CCCC; }
+  20%  { background: #33CC36; }
+  40%  { background: #B8CC33; }
+  60%  { background: #FCCA00; }
+  80%  { background: #2643e8; }
+  100% { background: #ff00b7; }
+}
+
+@keyframes color_2 {
+  0%   { background: #33CCCC; }
+  20%  { background: #33CC36; }
+  40%  { background: #B8CC33; }
+  60%  { background: #FCCA00; }
+  80%  { background: #2643e8; }
+  100% { background: #ff00b7; }
+}
+
+@keyframes color_3 {
+  0%   { background: #33CCCC; }
+  20%  { background: #33CC36; }
+  40%  { background: #B8CC33; }
+  60%  { background: #FCCA00; }
+  80%  { background: #2643e8; }
+  100% { background: #ff00b7; }
+}
+
+@keyframes color_4 {
+  0%   { background: #33CCCC; }
+  20%  { background: #33CC36; }
+  40%  { background: #B8CC33; }
+  60%  { background: #FCCA00; }
+  80%  { background: #2643e8; }
+  100% { background: #ff00b7; }
+}
+
+@keyframes color_5 {
+  0%   { background: #00ff7b; }
+  20%  { background: #b3eb0a; }
+  40%  { background: #B8CC33; }
+  60%  { background: #f3548b; }
+  80%  { background: #ffffff; }
+  100% { background: #ff00b7; }
+}
+
+@keyframes color_6 {
+  0%   { background: #00ff7b; }
+  20%  { background: #b3eb0a; }
+  40%  { background: #B8CC33; }
+  60%  { background: #f3548b; }
+  80%  { background: #ffffff; }
+  100% { background: #ff00b7; }
+}
+
+@keyframes color_7 {
+  0%   { background: #00ff7b; }
+  20%  { background: #b3eb0a; }
+  40%  { background: #B8CC33; }
+  60%  { background: #941d1d; }
+  80%  { background: #ffffff; }
+  100% { background: #ff00b7; }
+}
+
+@keyframes color_8 {
+  0%   { background: #00ff7b; }
+  20%  { background: #b3eb0a; }
+  40%  { background: #000000; }
+  60%  { background: #f3548b; }
+  80%  { background: #ffffff; }
+  100% { background: #ff00b7; }
+}
+
+
+@keyframes color_9 {
+  0%   { background: #00ff7b; }
+  20%  { background: #b3eb0a; }
+  40%  { background: #B8CC33; }
+  60%  { background: #f3548b; }
+  80%  { background: #ffffff; }
+  100% { background: #ff00b7; }
+}
+
+
+.color_0 {
+  background: #33CCCC; /* Fallback */
+  animation: color_1 10s infinite linear alternate;
+}
+
+.color_1 {
+  background: #33CCCC; /* Fallback */
+  animation: color_4 12s infinite linear alternate;
+}
+
+.color_2 {
+  background: #33CCCC; /* Fallback */
+  animation: color_3 15s infinite linear alternate;
+}
+
+.color_3 {
+  background: #33CCCC; /* Fallback */
+  animation: color_6 12s infinite linear alternate;
+}
+
+.color_4 {
+  background: #33CCCC; /* Fallback */
+  animation: color_2 17s infinite linear alternate;
+}
+
+.color_5 {
+  background: #33CCCC; /* Fallback */
+  animation: color_7 11s infinite linear alternate;
+}
+.color_6 {
+  background: #33CCCC; /* Fallback */
+  animation: color_9 10s infinite linear alternate;
+}
+.color_7 {
+  background: #33CCCC; /* Fallback */
+  animation: color_0 20s infinite linear alternate;
+}
+
+.color_8 {
+  background: #33CCCC; /* Fallback */
+  animation: color_8 16s infinite linear alternate;
+}
+
+.color_9 {
+  background: #33CCCC; /* Fallback */
+  animation: color_9 13s infinite linear alternate;
+}
+
+.bg {
+  background-size: 600% 600%;
+  background-image: linear-gradient(-45deg, rgb(34, 30, 41) 0%, rgb(26, 23, 48) 20%, rgb(9, 11, 42) 40%, #08021f 60%);
+  animation: AnimateBG 80s ease infinite;
+}
+
+@-webkit-keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
